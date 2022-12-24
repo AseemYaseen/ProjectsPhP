@@ -15,7 +15,7 @@ class crud{
         $data=[];
         $p=crud::conect()->prepare('SELECT * FROM regtable1');
         $p->execute();
-        $p->fetchAll(PDO::FETCH_ASSOC);
+        $data=$p->fetchAll(PDO::FETCH_ASSOC);
         return $data;
     }
 
