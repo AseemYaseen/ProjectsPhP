@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+}
+table{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+table,tr,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    width: 500px;
+    background: purple;
+    color: white;
+}
+td{
+    text-align: center;
+}
